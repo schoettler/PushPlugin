@@ -103,7 +103,7 @@ public class GCMIntentService extends GCMBaseIntentService {
 		NotificationCompat.Builder mBuilder =
 			new NotificationCompat.Builder(context)
 				.setDefaults(defaults)
-				.setColor(0xFF7C8EA4)
+				.setColor(0xFF6C3039)
 				.setSmallIcon(R.drawable.icon_transparent)
 				.setWhen(System.currentTimeMillis())
 				.setContentTitle(extras.getString("title"))
